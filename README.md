@@ -14,20 +14,24 @@
 ### Via npm
 ```bash
 npm install unfold.js
+```
 
-### Via сdn
-<script src="https://cdn.jsdelivr.net/npm/unfold.js@1.0.0/dist/unfold.min.js"></script>
+## Via сdn
+```bash<script src="https://cdn.jsdelivr.net/npm/unfold.js@1.0.0/dist/unfold.min.js"></script>```
 
-### 🚀 Usage
-import Unfold from 'unfold.js';
+## 🚀 Usage
+```bashimport Unfold from 'unfold.js';```
 
-###  Main methods
+##  Main methods
+```bash
 Unfold.toggle(element);      // Toggles visibility
 Unfold.up(element);          // Slides up (hides)
 Unfold.down(element);        // Slides down (shows)
 Unfold.bind('.item');        // Binds toggle on click to .item elements (expects .content inside)
+```
 
-### HTML example
+## HTML example
+```bash
 <ul>
   <li class="item">
     Header
@@ -37,3 +41,4 @@ Unfold.bind('.item');        // Binds toggle on click to .item elements (expects
 <script>
   Unfold.bind('.item');
 </script>
+```
