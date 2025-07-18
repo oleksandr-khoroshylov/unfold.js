@@ -18,7 +18,7 @@ npm install unfold.js
 
 ## Via сdn
 ```bash 
-<script src="https://cdn.jsdelivr.net/npm/unfold.js@1.0.0/dist/unfold.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/unfold.js/dist/unfold.min.js"></script>
 ```
 
 ## 🚀 Usage
