@@ -1,0 +1,23 @@
+{
+    "name": "unfold.js",
+    "version": "1.0.0",
+    "description": "Lightweight Vanilla JS library for slideToggle / slideUp / slideDown animations without dependencies",
+    "main": "dist/unfold.min.js",
+    "module": "src/unfold.js",
+    "scripts": {
+        "build": "esbuild src/unfold.js --bundle --minify --outfile=dist/unfold.min.js"
+    },
+    "keywords": [
+        "slideToggle",
+        "slideUp",
+        "slideDown",
+        "animation",
+        "vanilla-js",
+        "no-dependency"
+    ],
+    "author": "Oleksandr Khoroshylov",
+    "license": "MIT",
+    "devDependencies": {
+        "esbuild": "^0.20.0"
+    }
+}
